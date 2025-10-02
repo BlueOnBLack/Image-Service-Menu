@@ -2,6 +2,13 @@
   A Windows Explorer context menu extension (via `.reg` file) that integrates **wimlib-imagex** for servicing Windows images (`WIM`, `ESD`, `SWM`) and mounted folders.  
   > ⚠️ Requires `wimlib-imagex.exe` to be copied into `C:\Windows\System32`.
 
+## Screenshots
+
+<p float="left">
+  <img src="Image1.png" width="400" alt="Context menu overview" />
+  <img src="Image2.png" width="400" alt="Image servicing options" />
+</p>
+
   **Supported Actions (on WIM/ESD/SWM files):**
   - `Export Image` — Export selected image(s) to a new file.
   - `Export/Append Image[s]` — Append or export multiple images.
